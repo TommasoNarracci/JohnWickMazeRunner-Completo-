@@ -1,0 +1,36 @@
+{
+    "StandardConfig": {
+        "checkpoints": [
+            {
+                "steps": 499883,
+                "file_path": "results\\DAII35\\StandardConfig\\StandardConfig-499883.onnx",
+                "reward": 8.034136354923248,
+                "creation_time": 1611757716.004367
+            },
+            {
+                "steps": 999909,
+                "file_path": "results\\DAII35\\StandardConfig\\StandardConfig-999909.onnx",
+                "reward": 5.720951080322266,
+                "creation_time": 1611759245.9864266
+            },
+            {
+                "steps": 1348848,
+                "file_path": "results\\DAII35\\StandardConfig\\StandardConfig-1348848.onnx",
+                "reward": null,
+                "creation_time": 1611760315.0445788
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1348848,
+            "file_path": "results\\DAII35\\StandardConfig.onnx",
+            "reward": null,
+            "creation_time": 1611760315.0445788
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.0+cu110",
+        "tensorflow_version": -1
+    }
+}

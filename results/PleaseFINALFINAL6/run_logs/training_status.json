@@ -1,0 +1,24 @@
+{
+    "StandardConfig": {
+        "checkpoints": [
+            {
+                "steps": 196739,
+                "file_path": "results\\PleaseFINALFINAL6\\StandardConfig\\StandardConfig-196739.onnx",
+                "reward": -1.0345897369552404,
+                "creation_time": 1611678212.8526719
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 196739,
+            "file_path": "results\\PleaseFINALFINAL6\\StandardConfig.onnx",
+            "reward": -1.0345897369552404,
+            "creation_time": 1611678212.8526719
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.0+cu110",
+        "tensorflow_version": -1
+    }
+}

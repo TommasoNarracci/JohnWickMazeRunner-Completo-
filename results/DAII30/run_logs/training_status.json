@@ -1,0 +1,24 @@
+{
+    "StandardConfig": {
+        "checkpoints": [
+            {
+                "steps": 103,
+                "file_path": "results\\DAII30\\StandardConfig\\StandardConfig-103.onnx",
+                "reward": -0.9689011176427206,
+                "creation_time": 1611755022.5161407
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 103,
+            "file_path": "results\\DAII30\\StandardConfig.onnx",
+            "reward": -0.9689011176427206,
+            "creation_time": 1611755022.5161407
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.0+cu110",
+        "tensorflow_version": -1
+    }
+}

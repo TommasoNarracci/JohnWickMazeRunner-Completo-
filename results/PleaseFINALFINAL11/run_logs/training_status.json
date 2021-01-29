@@ -1,0 +1,24 @@
+{
+    "StandardConfig": {
+        "checkpoints": [
+            {
+                "steps": 228735,
+                "file_path": "results\\PleaseFINALFINAL11\\StandardConfig\\StandardConfig-228735.onnx",
+                "reward": null,
+                "creation_time": 1611679477.8877387
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 228735,
+            "file_path": "results\\PleaseFINALFINAL11\\StandardConfig.onnx",
+            "reward": null,
+            "creation_time": 1611679477.8877387
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.0+cu110",
+        "tensorflow_version": -1
+    }
+}

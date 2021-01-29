@@ -1,0 +1,48 @@
+{
+    "StandardConfig": {
+        "checkpoints": [
+            {
+                "steps": 999916,
+                "file_path": "results\\RealFinale\\StandardConfig\\StandardConfig-999916.onnx",
+                "reward": 7.112980751693248,
+                "creation_time": 1611763342.6333265
+            },
+            {
+                "steps": 1499993,
+                "file_path": "results\\RealFinale\\StandardConfig\\StandardConfig-1499993.onnx",
+                "reward": null,
+                "creation_time": 1611764795.7752984
+            },
+            {
+                "steps": 1999981,
+                "file_path": "results\\RealFinale\\StandardConfig\\StandardConfig-1999981.onnx",
+                "reward": 9.438588003317514,
+                "creation_time": 1611766259.9218075
+            },
+            {
+                "steps": 2499968,
+                "file_path": "results\\RealFinale\\StandardConfig\\StandardConfig-2499968.onnx",
+                "reward": 7.979012615978718,
+                "creation_time": 1611767746.9696338
+            },
+            {
+                "steps": 2612025,
+                "file_path": "results\\RealFinale\\StandardConfig\\StandardConfig-2612025.onnx",
+                "reward": null,
+                "creation_time": 1611768075.9876132
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2612025,
+            "file_path": "results\\RealFinale\\StandardConfig.onnx",
+            "reward": null,
+            "creation_time": 1611768075.9876132
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.0+cu110",
+        "tensorflow_version": -1
+    }
+}

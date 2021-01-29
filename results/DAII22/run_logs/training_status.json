@@ -1,0 +1,30 @@
+{
+    "StandardConfig": {
+        "checkpoints": [
+            {
+                "steps": 499875,
+                "file_path": "results\\DAII22\\StandardConfig\\StandardConfig-499875.onnx",
+                "reward": null,
+                "creation_time": 1611750363.6971893
+            },
+            {
+                "steps": 790466,
+                "file_path": "results\\DAII22\\StandardConfig\\StandardConfig-790466.onnx",
+                "reward": -4.62416398525238,
+                "creation_time": 1611751090.0096273
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 790466,
+            "file_path": "results\\DAII22\\StandardConfig.onnx",
+            "reward": -4.62416398525238,
+            "creation_time": 1611751090.0096273
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.0+cu110",
+        "tensorflow_version": -1
+    }
+}

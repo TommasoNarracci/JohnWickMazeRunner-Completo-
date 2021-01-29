@@ -1,0 +1,29 @@
+behaviors:
+  StandardConfig:
+    trainer_type: ppo
+
+    max_steps: 5.0e7
+    time_horizon: 128
+    summary_freq: 10000
+
+    hyperparameters:
+      batch_size: 128
+      beta: 1.0e-2
+      buffer_size: 2048
+  
+
+
+    network_settings:
+      num_layers: 2
+      hidden_units: 512
+
+
+
+    reward_signals:
+      extrinsic:
+        strength: 1.0
+        gamma: 0.99
+      curiosity:
+        strength: 0.02
+        gamma: 0.99
+        encoding_size: 256

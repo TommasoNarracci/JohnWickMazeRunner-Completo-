@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1611612630",
+        "python_version": "3.7.9 (default, Aug 31 2020, 17:10:11) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\PC\\anaconda3\\envs\\mlagents\\Scripts\\mlagents-learn config/comodo.yaml --run-id=test24",
+        "mlagents_version": "0.23.0",
+        "mlagents_envs_version": "0.23.0",
+        "communication_protocol_version": "1.3.0",
+        "pytorch_version": "1.7.0+cu110",
+        "numpy_version": "1.18.5",
+        "end_time_seconds": "1611612690"
+    },
+    "total": 60.7653668,
+    "count": 1,
+    "self": 0.0043500000000022965,
+    "children": {
+        "run_training.setup": {
+            "total": 0.006591299999999967,
+            "count": 1,
+            "self": 0.006591299999999967
+        },
+        "TrainerController.start_learning": {
+            "total": 60.7544255,
+            "count": 1,
+            "self": 0.00012009999999662568,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 60.7540783,
+                    "count": 1,
+                    "self": 60.7540783
+                },
+                "TrainerController._save_models": {
+                    "total": 0.00022710000000358832,
+                    "count": 1,
+                    "self": 0.00022710000000358832
+                }
+            }
+        }
+    }
+}

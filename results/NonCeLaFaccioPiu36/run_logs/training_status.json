@@ -1,0 +1,24 @@
+{
+    "StandardConfig": {
+        "checkpoints": [
+            {
+                "steps": 30566,
+                "file_path": "results\\NonCeLaFaccioPiu36\\StandardConfig\\StandardConfig-30566.onnx",
+                "reward": -3.283327430486679,
+                "creation_time": 1611705609.2712338
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 30566,
+            "file_path": "results\\NonCeLaFaccioPiu36\\StandardConfig.onnx",
+            "reward": -3.283327430486679,
+            "creation_time": 1611705609.2712338
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.0+cu110",
+        "tensorflow_version": -1
+    }
+}
